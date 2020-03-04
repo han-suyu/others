@@ -276,7 +276,7 @@ function onInput(i, j) {
     sudoku[i][j] = value;
     // table[i][j].innerHTML = value;
   } else {
-    alert('Wrong Answer, Please change to another number');
+    alert('错误答案 请尝试另一个数字');
     inputElement.value = "";
   }
 
