@@ -50,18 +50,6 @@
       x1: 0,
       x2: 0,
       y: 0
-    },
-    {
-      text: '选择模式',
-      x1: 0,
-      x2: 0,
-      y: 0
-    },
-    {
-      text: '游戏说明',
-      x1: 0,
-      x2: 0,
-      y: 0
     }
   ]
 
@@ -218,8 +206,8 @@
     game.controller.coverFullScreen(true, endGameCallback)
     var canvasWidth = canvas.width
     var canvasHeight = canvas.height
-    var img = document.getElementById('homeImg')
-    ctx.drawImage(img, 0, 0, canvasWidth, canvasHeight)
+    //var img = document.getElementById('homeImg')
+    //ctx.drawImage(img, 0, 0, canvasWidth, canvasHeight)
     function endGameCallback() {
       ctx.beginPath()
       ctx.fillStyle = textColor
