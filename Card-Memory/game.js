@@ -66,7 +66,7 @@ $(function(){
 
 function clickCard(){
 	//如果已被翻2张牌,不做操作
-	if($('.flipped').size>1){
+	if($('.flipped').length>1){
 		return;
 	}
 
@@ -74,7 +74,7 @@ function clickCard(){
 	$(this).addClass('flipped');
 
 	//如果翻第二张牌,进行匹配检查
-	if($('.flipped').size()==2){
+	if($('.flipped').length ==2){
 		setTimeout(checkPattern, 500);
 	}
 }
