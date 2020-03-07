@@ -21,7 +21,7 @@ body{
 /*游戏区div，大小根据小div计算，因为下面设置小方块大小为150*150
 ，所以这个大小为150*3=450px*/
 #game{
-	position:absolute;
+	text-align:center;
 	width:450px;
 	height:450px;
 	border-radius:5px;
@@ -71,7 +71,7 @@ body{
 	font-size:10px;
 	width:60px;
 	height:30px;
-	background-color:#20B2AA;
+	
 	color:#000000;
 	
 	
@@ -86,7 +86,7 @@ body{
 	font-size:10px;
 	width:60px;
 	height:30px;
-	background-color:#20B2AA;
+	
 	color:#000000;
 	
                 
